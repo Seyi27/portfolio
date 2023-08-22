@@ -2,6 +2,7 @@ import React from 'react'
 import './About.scss'
 import { easeInOut, easeOut, motion } from 'framer-motion'
 import image from '../../assets/profile.png'
+import resume from '../../assets/resume.pdf'
 
 function About() {
   return (
@@ -22,13 +23,13 @@ function About() {
       >
         <h3>About Me</h3>
         <p>My name is Bhadmus Oluwaseyi and
-          i am an experienced frontend developer with three years of expertise in crafting dynamic web and mobile applications using React, React Native, TypeScript, and Next.js.
+          i am an experienced frontend developer with three years of expertise in crafting dynamic web and mobile applications using React, React Native and TypeScript.
           Passionate about creating seamless user experiences and bringing design concepts to life through clean, efficient code.
           Dedicated to staying at the forefront of technology trends and pushing the boundaries of interactive digital solutions.
         </p>
 
         <div className='app__button-container'>
-          <a href="../../../public/My_Resume.pdf" download="My_Resume.pdf">
+          <a href={resume} download="resume.pdf">
             Download Resume
           </a>
         </div>
