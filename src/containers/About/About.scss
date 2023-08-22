@@ -44,7 +44,7 @@
         display: flex;
         justify-content: flex-start;
 
-        button {
+        a {
             padding: 12px;
             margin-top: 20px;
             font-size: 15px;
@@ -53,6 +53,8 @@
             outline: 0;
             border: 0;
             border-radius: 10px;
+            text-decoration: none;
+            color: black;
 
             &:hover {
                 background-color: lightblue;

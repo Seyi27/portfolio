@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { HiPhone, HiMail } from 'react-icons/hi'
 import './Contact.scss'
 import { client } from '../../client'
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
@@ -88,8 +88,8 @@ function Contact() {
         </div>
 
         <div className='app__icon'>
-          <a href=''>
-            <AiFillInstagram />
+          <a href='https://twitter.com/Seyi_27'>
+            <AiFillTwitterCircle />
           </a>
         </div>
       </div>

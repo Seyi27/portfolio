@@ -1,15 +1,9 @@
 import React from 'react'
 import './About.scss'
 import { easeInOut, easeOut, motion } from 'framer-motion'
-import image from '../../assets/Linkedin.png'
+import image from '../../assets/profile.png'
 
 function About() {
-  const handleDownload = () => {
-    const downloadLink = document.createElement('a');
-    downloadLink.href = '../assets/My_Resume.pdf'; // Provide the actual path to your resume PDF
-    downloadLink.download = 'My_Resume.pdf'; // Provide the desired download file name
-    downloadLink.click();
-  };
   return (
     <div className='app__about'>
       <motion.div
@@ -34,8 +28,11 @@ function About() {
         </p>
 
         <div className='app__button-container'>
-          <button onClick={handleDownload}>Download Resume</button>
+          <a href="../assets/My_Resume.pdf" download="My_Resume.pdf">
+            Download PDF
+          </a>
         </div>
+
       </motion.div>
     </div>
   )

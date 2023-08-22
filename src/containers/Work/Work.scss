@@ -47,7 +47,7 @@
     align-items: center;
 
     .app__work-item{
-        width: 270px;
+        width: 500px;
         flex-direction: column;
         margin: 2rem;
         padding: 1rem;
@@ -64,6 +64,11 @@
         @media screen and (max-width: 300px) {
             width: 100%;
             margin: 1rem;
+        }
+        @media screen and (max-width: 900px) {
+            width: 100%;
+            margin: 1rem;
+
         }
     }
 }

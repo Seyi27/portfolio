@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.scss'
 import { easeInOut, easeOut, motion } from 'framer-motion'
 import logo from '../../assets/cross-p.png'
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 
 function Header() {
   return (
@@ -47,8 +47,8 @@ function Header() {
             </div>
 
             <div className='app__icon'>
-              <a href=''>
-                <AiFillInstagram />
+              <a href='https://twitter.com/Seyi_27'>
+                <AiFillTwitterCircle />
               </a>
             </div>
           </div>
