@@ -28,8 +28,8 @@ function About() {
         </p>
 
         <div className='app__button-container'>
-          <a href="../assets/My_Resume.pdf" download="My_Resume.pdf">
-            Download PDF
+          <a href="../../../public/My_Resume.pdf" download="My_Resume.pdf">
+            Download Resume
           </a>
         </div>
 
