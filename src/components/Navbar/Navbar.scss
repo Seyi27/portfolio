@@ -1,0 +1,169 @@
+.app__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px); //for blur background
+    -webkit-backdrop-filter: blur(4px); //for blur background to support by other browser
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+}
+
+//SCSS allows nested styles
+// For the Logo
+.app__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+     @media screen and (min-width:2000px){
+        width: 180px;
+        height: 40px;
+     }
+}
+
+//For the nav links
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    li {
+        margin: 0 1rem;
+        cursor: pointer;
+        flex-direction: column;
+        transition: all 0.2s ease-in-out; // For the border bottom
+
+
+        // For the dot above the links
+        div {
+            width: 5px;
+            height: 5px;
+            background: transparent;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        &:hover {
+            div {
+                background: var(--secondary-color);
+            }
+            border-bottom: 2px solid var(--secondary-color); // For the border bottom
+        }
+
+        a {
+            color: var(--gray-color); //Theme wriiten in index.css
+            text-decoration: none;
+            flex-direction: column;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+
+            // Instead of doing a:hover, you can write it like &:hover where & is referring to the actual parent tag(a)
+            &:hover {
+                color: var(--secondary-color);
+            }
+
+        }
+    }
+
+    // when the screen is on phone, the navigations disappear
+    @media screen and (max-width:900px) {
+        display: none;
+    }
+}
+
+
+.app__navbar-menu {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+
+    //To target the svg icon inside
+    svg {
+        width: 70%;
+        height: 70%;
+        color: var(--white-color);
+    }
+
+    //To target the div (i.e motion.div)
+    div {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 5;
+        padding: 1rem;
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white-color);
+        background-size: cover;
+        background-repeat: repeat;
+        box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+
+        //   The cancel icon
+        svg {
+            width: 35px;
+            height: 35px;
+            color: var(--secondary-color);
+            margin: 0.5rem 1rem;
+            align-self: flex-end;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+
+            li {
+                margin: 1rem;
+
+                a{
+                    color: var(--gray-color);
+                    text-decoration: none;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    transition: all 0.3s ease-in-out;
+
+
+                    &:hover{
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+        }
+
+     @media screen and (min-width: 900px) {
+         display: none;
+     }
+
+    }
+
+    @media screen and (min-width: 900px) {
+        display: none;
+    }
+}
