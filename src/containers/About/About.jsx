@@ -7,20 +7,23 @@ import resume from '../../assets/resume.pdf'
 function About() {
   return (
     <div className='app__about'>
-      <motion.div
+      {/* <motion.div
         whileInView={{ x: [-300, 0] }}
         transition={{ duration: 1 }}
         className='app__about-image'
-      >
+      > */}
+      <div className='app__about-image'>
         <img src={image} alt='my image' />
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
 
-      <motion.div
+
+      {/* <motion.div
         whileInView={{ x: [200, 0] }}
         transition={{ duration: 1 }}
         className='app__about-text'
-
-      >
+      > */}
+      <div className='app__about-text'>
         <h3>About Me</h3>
         <p>My name is Bhadmus Oluwaseyi and
           i am an experienced frontend developer with three years of expertise in crafting dynamic web and mobile applications using React, React Native and TypeScript.
@@ -33,8 +36,8 @@ function About() {
             Download Resume
           </a>
         </div>
-
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </div>
   )
 }

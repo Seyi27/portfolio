@@ -12,27 +12,27 @@ function Header() {
         transition={{ duration: 1 }}
         className='app__text'
       >
-        <motion.div
+        {/* <motion.div
           whileInView={{ y: [20, 0] }}
           transition={{ duration: 3 }}
-        >
+        > */}
           <span>Hello, I'm</span>
-        </motion.div>
+        {/* </motion.div> */}
         
-        <motion.div
+        {/* <motion.div
           whileInView={{ y: [200, 0] }}
           transition={{ duration: 2 }}
-        >
+        > */}
           <h1>Bhadmus Oluwaseyi</h1>
-        </motion.div>
+        {/* </motion.div> */}
 
         <p>I'm a passionate frontend developer with a creative edge, dedicated to crafting immersive digital experiences. With a keen eye for design and a strong command of cutting-edge web technologies, I specialize in turning concepts into captivating user interfaces.</p>
 
-        <motion.div
+        {/* <motion.div
           whileInView={{ y: [-200, 0] }}
           transition={{ duration: 1 }}
           className='app__text'
-        >
+        > */}
           <div className='app__icon-container' >
             <div className='app__icon'>
               <a href='https://github.com/Seyi27'>
@@ -52,9 +52,10 @@ function Header() {
               </a>
             </div>
           </div>
-        </motion.div>
+        {/* </motion.div> */}
 
       </motion.div>
+
       <motion.div
         whileInView={{ x: [400, 0] }}
         transition={{ duration: 1 }}
@@ -62,6 +63,7 @@ function Header() {
       >
         <img src={logo} alt='cross' />
       </motion.div>
+      
     </div>
   )
 }
