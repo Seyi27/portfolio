@@ -13,7 +13,7 @@ function Header() {
         transition={{ duration: 1 }}
         className='app__text'
       > */}
-      
+
         {/* <motion.div
           whileInView={{ y: [20, 0] }}
           transition={{ duration: 3 }}
@@ -59,13 +59,15 @@ function Header() {
         {/* </motion.div> */}
       </div>
 
-      <motion.div
+      {/* <motion.div
         whileInView={{ x: [400, 0] }}
         transition={{ duration: 1 }}
         className='app__image'
-      >
+      > */}
+      <div className='app__image'>
         <img src={logo} alt='cross' />
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </div >
   )
 }
