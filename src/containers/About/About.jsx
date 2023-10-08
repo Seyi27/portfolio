@@ -2,7 +2,7 @@ import React from 'react'
 import './About.scss'
 import { easeInOut, easeOut, motion } from 'framer-motion'
 import image from '../../assets/profile.png'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/MyResume.pdf'
 
 function About() {
   return (
