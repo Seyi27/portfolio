@@ -1,0 +1,46 @@
+.app__skills {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__skills h3 {
+    padding: 20px;
+}
+
+.app__skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 10px 0 30px 0;
+}
+
+.app__skills-container .app__skills-container-items {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.app__skills-container .app__skills-container-items img {
+    width: 60%;
+    height: 60%;
+}
+
+.app__skills-container .app__skills-container-items p {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 900px) {
+    .app__skills-container {
+        width: 100%;
+        padding: 0 0 20px 0;
+        justify-content: center;
+    }
+}
