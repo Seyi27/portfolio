@@ -6,6 +6,7 @@ import saleko_img from '../../assets/project_image/saleko.png'
 import rafiki_img from '../../assets/project_image/rafiki.png'
 import hob_img from '../../assets/project_image/hob.png'
 import sme_img from '../../assets/project_image/sme.png'
+import smooth_capital from '../../assets/project_image/smooth-capital.png'
 
 function Work() {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -46,6 +47,15 @@ function Work() {
       projectLink: 'https://www.saleko.ng/',
       codeLink: '',
       imgUrl: saleko_img
+    },
+    {
+      title: 'Smooth Capital',
+      description: 'Developed a modern, responsive website for a wealth management company, showcasing their tailored investment solutions and services. Focused on delivering a professional user experience that reflects trust, growth, and financial confidence.',
+      tag: 'Web App',
+      stack: ['React','Tailwind css'],
+      projectLink: 'https://smooth-capital.vercel.app/',
+      codeLink: '',
+      imgUrl: smooth_capital
     }
   ]);
   const [filterWorks, setFilterWorks] = useState(works);
