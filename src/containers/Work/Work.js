@@ -41,7 +41,7 @@ function Work() {
       imgUrl: hob_img
     },
     {
-      title: 'Saleko',
+      title: 'Saleko Ecommerce Platform',
       description: 'A web app that enables seamless online shopping, supports multiple payment options, provides personalized recommendations, and ensures a user-friendly experience for customers and vendors.',
       tag: 'Web App',
       stack: ['React', 'Typescript', 'Redux'],
@@ -50,7 +50,7 @@ function Work() {
       imgUrl: saleko_img
     },
     {
-      title: 'Saleko Merchant',
+      title: 'Saleko Merchant Platform',
       description: 'A web app designed for vendors to easily manage their online stores, upload and organize products, track sales and transactions, and receive real-time insights, all while providing a seamless connection to customers through the Saleko marketplace.',
       tag: 'Web App',
       stack: ['React', 'Typescript', 'Redux'],
