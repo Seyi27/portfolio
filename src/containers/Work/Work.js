@@ -3,6 +3,7 @@ import './Work.css'
 import { motion } from 'framer-motion'
 import { AiFillEye, AiFillGithub } from 'react-icons/ai'
 import saleko_img from '../../assets/project_image/saleko.png'
+import saleko_merchant from '../../assets/project_image/saleko-merchant.png'
 import rafiki_img from '../../assets/project_image/rafiki.png'
 import hob_img from '../../assets/project_image/hob.png'
 import sme_img from '../../assets/project_image/sme.png'
@@ -43,16 +44,25 @@ function Work() {
       title: 'Saleko',
       description: 'A web app that enables seamless online shopping, supports multiple payment options, provides personalized recommendations, and ensures a user-friendly experience for customers and vendors.',
       tag: 'Web App',
-      stack: ['React'],
+      stack: ['React', 'Redux'],
       projectLink: 'https://www.saleko.ng/',
       codeLink: '',
       imgUrl: saleko_img
     },
     {
+      title: 'Saleko Merchant',
+      description: 'A web app designed for vendors to easily manage their online stores, upload and organize products, track sales and transactions, and receive real-time insights, all while providing a seamless connection to customers through the Saleko marketplace.',
+      tag: 'Web App',
+      stack: ['React', 'Redux'],
+      projectLink: 'https://seller.saleko.ng/',
+      codeLink: '',
+      imgUrl: saleko_merchant
+    },
+    {
       title: 'Smooth Capital',
       description: 'Developed a modern, responsive website for a wealth management company, showcasing their tailored investment solutions and services. Focused on delivering a professional user experience that reflects trust, growth, and financial confidence.',
       tag: 'Web App',
-      stack: ['React','Tailwind css'],
+      stack: ['React', 'Tailwind css'],
       projectLink: 'https://smooth-capital.vercel.app/',
       codeLink: '',
       imgUrl: smooth_capital
