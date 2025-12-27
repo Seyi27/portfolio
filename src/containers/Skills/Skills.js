@@ -114,7 +114,7 @@ function Skills() {
           {[...skills, ...skills].map((skill, index) => (
             <div className="app__skills-item" key={index}>
               <img src={skill.icon} alt={skill.name} />
-              <p>{skill.name}</p>
+              {/* <p>{skill.name}</p> */}
             </div>
           ))}
         </motion.div>
