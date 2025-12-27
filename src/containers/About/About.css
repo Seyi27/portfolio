@@ -13,9 +13,9 @@
     }
 }
 
-.app__about-image {
+/* .app__about-image {
     padding-right: 50px;
-}
+} */
 
 .app__about-image img {
     width: 250px;
@@ -23,11 +23,11 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .app__about-image {
         padding-right: 0;
     }
-}
+} */
 
 .app__about-text {
     width: 600px;

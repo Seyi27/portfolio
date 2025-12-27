@@ -27,12 +27,12 @@ function Navbar() {
             <a href='#home'>home</a>
           </li>
         </Link>
-        <Link to="about" smooth={true} duration={500}>
+        {/* <Link to="about" smooth={true} duration={500}>
           <li className='app__flex p-text'>
             <div></div>
             <a href='#about'>about</a>
           </li>
-        </Link>
+        </Link> */}
         <Link to="work" smooth={true} duration={500}>
           <li className='app__flex p-text'>
             <div></div>

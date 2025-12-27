@@ -1,4 +1,4 @@
-.app__skills {
+/* .app__skills {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -43,4 +43,42 @@
         padding: 0 0 20px 0;
         justify-content: center;
     }
+} */
+
+.app__skills {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  background-color: white;
+}
+
+.app__skills-marquee {
+  width: 75%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.app__skills-track {
+  display: flex;
+  width: max-content;
+}
+
+.app__skills-item {
+  min-width: 120px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.app__skills-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+  .app__skills-marquee {
+    width: 90%;
+  }
 }

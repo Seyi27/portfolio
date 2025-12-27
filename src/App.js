@@ -16,9 +16,9 @@ function App() {
         <Header />
       </Element>
 
-      <Element name="about">
+      {/* <Element name="about">
         <About />
-      </Element>
+      </Element> */}
 
       <Element name="work">
         <Work />
