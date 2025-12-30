@@ -8,15 +8,6 @@
   margin-top: 100px;
 }
 
-@media screen and (max-width: 900px) {
-  .app__header {
-    padding-top: 25%;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 30px;
-  }
-}
-
 .app__text {
   width: 500px;
 }
@@ -37,6 +28,13 @@
 }
 
 @media screen and (max-width: 900px) {
+  .app__header {
+    padding-top: 25%;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
   .app__text {
     width: 350px;
   }
