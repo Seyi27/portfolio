@@ -91,7 +91,7 @@ const skills = [
   { name: 'React Native', icon: react_js },
   { name: 'Angular', icon: angular },
   // { name: 'Sass', icon: sass },
-  { name: 'Tailwind', icon: tailwind_css },
+  { name: 'Tailwind css', icon: tailwind_css },
   { name: 'Redux', icon: redux },
   { name: 'Php', icon: php },
   { name: 'Mysql', icon: mysql },
