@@ -11,7 +11,7 @@ function Contact() {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <HiPhone />
-          <a href="tel: +234 814 799 9394" className='p-text'>+234 0814 799 9394</a>
+          <a href="tel: +234 814 799 9394" className='p-text'>+234 814 799 9394</a>
         </div>
         <div className='app__footer-card'>
           <HiMail />

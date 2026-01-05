@@ -8,6 +8,9 @@ import rafiki_img from '../../assets/project_image/rafiki.png'
 import hob_img from '../../assets/project_image/hob.png'
 import sme_img from '../../assets/project_image/sme.png'
 import smooth_capital from '../../assets/project_image/smooth-capital.png'
+import ecomap_platform from '../../assets/project_image/ecomap.png'
+import connectly from '../../assets/project_image/connectly.png'
+import my_portfolio from '../../assets/project_image/portfolio.png'
 
 function Work() {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -66,6 +69,33 @@ function Work() {
       projectLink: 'https://smooth-capital.vercel.app/',
       codeLink: '',
       imgUrl: smooth_capital
+    },
+    {
+      title: 'Ecomap Platform',
+      description: 'The EcoMap Platform is a web application that connects Startups (Founders) with Enablers (investors, government agencies, startup ecosystem builders) under the supervision and support of a Platform Team (Super User, Admins, and Support Teams).',
+      tag: 'Web App',
+      stack: ['React', 'Typescript', 'Redux', 'Tailwind css'],
+      projectLink: 'https://ecomap-fe.web.app/',
+      codeLink: '',
+      imgUrl: ecomap_platform
+    },
+    {
+      title: 'Connectly',
+      description: 'Connectly is a real-time voice communication platform that enables businesses to manage customer calls affordably and efficiently.',
+      tag: 'Web App',
+      stack: ['React', 'Next.js', 'Typescript', 'Tailwind css'],
+      projectLink: 'https://web-staging.connectly.africa/',
+      codeLink: '',
+      imgUrl: connectly
+    },
+    {
+      title: 'My Portfolio',
+      description: 'A personal portfolio showcasing my skills, projects, and experience as a frontend developer.',
+      tag: 'Web App',
+      stack: ['React'],
+      projectLink: 'https://oluwaseyibhadmus.vercel.app/',
+      codeLink: '',
+      imgUrl: my_portfolio
     }
   ]);
   const [filterWorks, setFilterWorks] = useState(works);
@@ -114,33 +144,33 @@ function Work() {
 
                   {/* The github and eye icon */}
                   {/* <motion.div
-                  whileHover={{ opacity: [0, 1] }}
-                  transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
-                  className='app__work-hover app__flex'
-                >
-                  <a href={work.projectLink} target='_blank' rel='noreferrer' >
-                    <motion.div
-                      whileInView={{ scale: [0, 1] }}
-                      whileHover={{ scale: [1, 0.9] }}
-                      transition={{ duration: 0.25 }}
-                      className='app__flex'
-                    >
-                      <AiFillEye />
-                    </motion.div>
-                  </a>
+                    whileHover={{ opacity: [0, 1] }}
+                    transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+                    className='app__work-hover app__flex'
+                  >
+                    <a href={work.projectLink} target='_blank' rel='noreferrer' >
+                      <motion.div
+                        whileInView={{ scale: [0, 1] }}
+                        whileHover={{ scale: [1, 0.9] }}
+                        transition={{ duration: 0.25 }}
+                        className='app__flex'
+                      >
+                        <AiFillEye />
+                      </motion.div>
+                    </a>
 
-                  <a href={work.codeLink} target='_blank' rel='noreferrer' >
-                    <motion.div
-                      whileInView={{ scale: [0, 1] }}
-                      whileHover={{ scale: [1, 0.9] }}
-                      transition={{ duration: 0.25 }}
-                      className='app__flex'
-                    >
-                      <AiFillGithub />
-                    </motion.div>
-                  </a>
+                    <a href={work.codeLink} target='_blank' rel='noreferrer' >
+                      <motion.div
+                        whileInView={{ scale: [0, 1] }}
+                        whileHover={{ scale: [1, 0.9] }}
+                        transition={{ duration: 0.25 }}
+                        className='app__flex'
+                      >
+                        <AiFillGithub />
+                      </motion.div>
+                    </a>
 
-                </motion.div> */}
+                  </motion.div> */}
                 </div>
 
                 <div className='app__work-content app__flex'>

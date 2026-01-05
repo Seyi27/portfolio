@@ -72,6 +72,7 @@ import css from '../../assets/css.png'
 import javascript from '../../assets/javascript.png'
 import typescript from '../../assets/typescript.png'
 import react_js from '../../assets/react.png'
+import next_js from '../../assets/next.png'
 import angular from '../../assets/angular.png'
 import sass from '../../assets/sass.png'
 import tailwind_css from '../../assets/tailwind.png'
@@ -86,9 +87,10 @@ const skills = [
   { name: 'Javascript', icon: javascript },
   { name: 'Typescript', icon: typescript },
   { name: 'React', icon: react_js },
+  { name: 'Next.js', icon: next_js },
   { name: 'React Native', icon: react_js },
   { name: 'Angular', icon: angular },
-  { name: 'Sass', icon: sass },
+  // { name: 'Sass', icon: sass },
   { name: 'Tailwind', icon: tailwind_css },
   { name: 'Redux', icon: redux },
   { name: 'Php', icon: php },
