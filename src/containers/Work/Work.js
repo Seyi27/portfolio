@@ -17,33 +17,6 @@ function Work() {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState([
     {
-      title: 'Rafiki Chatbot ( Virtual Assistant )',
-      description: 'A web app that features a multilingual, secure banking chatbot with an adaptive UI, dynamic translations, conversational workflows for key operations, live agent escalation, and seamless integration with core banking systems.',
-      tag: 'Web App',
-      stack: ['React', 'Tailwind css'],
-      projectLink: '',
-      codeLink: '',
-      imgUrl: rafiki_img
-    },
-    {
-      title: 'My SME Application',
-      description: 'A mobile app for digital onboarding, multilingual support across 33 countries, and SME-focused features like account management, payments, and loans, with real-time data synchronization via API integration.',
-      tag: 'Mobile App',
-      stack: ['React Native', 'Redux'],
-      projectLink: '',
-      codeLink: '',
-      imgUrl: sme_img
-    },
-    {
-      title: 'Onboarding Portal',
-      description: 'A mobile app that streamlines onboarding, fosters growth, supports continuous feedback, and aligns with company goals to enhance employee integration and satisfaction.',
-      tag: 'Mobile App',
-      stack: ['React Native'],
-      projectLink: '',
-      codeLink: '',
-      imgUrl: hob_img
-    },
-    {
       title: 'Saleko Ecommerce Platform',
       description: 'A web app that enables seamless online shopping, supports multiple payment options, provides personalized recommendations, and ensures a user-friendly experience for customers and vendors.',
       tag: 'Web App',
@@ -89,6 +62,34 @@ function Work() {
       imgUrl: connectly
     },
     {
+      title: 'Rafiki Chatbot ( Virtual Assistant )',
+      description: 'A web app that features a multilingual, secure banking chatbot with an adaptive UI, dynamic translations, conversational workflows for key operations, live agent escalation, and seamless integration with core banking systems.',
+      tag: 'Web App',
+      stack: ['React', 'Tailwind css'],
+      projectLink: '',
+      codeLink: '',
+      imgUrl: rafiki_img
+    },
+    {
+      title: 'My SME Application',
+      description: 'A mobile app for digital onboarding, multilingual support across 33 countries, and SME-focused features like account management, payments, and loans, with real-time data synchronization via API integration.',
+      tag: 'Mobile App',
+      stack: ['React Native', 'Redux'],
+      projectLink: '',
+      codeLink: '',
+      imgUrl: sme_img
+    },
+    {
+      title: 'Onboarding Portal',
+      description: 'A mobile app that streamlines onboarding, fosters growth, supports continuous feedback, and aligns with company goals to enhance employee integration and satisfaction.',
+      tag: 'Mobile App',
+      stack: ['React Native'],
+      projectLink: '',
+      codeLink: '',
+      imgUrl: hob_img
+    },
+
+    {
       title: 'My Portfolio',
       description: 'A personal portfolio showcasing my skills, projects, and experience as a frontend developer.',
       tag: 'Web App',
@@ -118,7 +119,9 @@ function Work() {
   return (
     <>
       <div className='app__works'>
-        <h3 className='app__flex'>My Projects</h3>
+        <h1 className='app__flex'>My Projects</h1>
+        <p className='app__flex work_subtitle'>Building impactful solutions for real-world problems</p>
+
         <div className='app__work-filter'>
           {['All', 'Web App', 'Mobile App'].map((item, index) => (
             <div

@@ -101,7 +101,7 @@ const skills = [
 function Skills() {
   return (
     <div className="app__skills">
-      <h3>Skills</h3>
+      <h1>Skills</h1>
 
       <div className="app__skills-marquee">
         <motion.div
