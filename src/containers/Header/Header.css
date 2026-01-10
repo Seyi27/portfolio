@@ -484,9 +484,9 @@
     font-size: 1rem;
   }
 
-  /* .cta-buttons {
+  .cta-buttons {
     flex-direction: column;
-  } */
+  }
 
   .btn {
     text-align: center;

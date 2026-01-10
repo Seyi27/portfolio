@@ -35,7 +35,7 @@
 }
 
 .app__work-filter-item:hover {
-  background-color: #2563eb;
+  background: linear-gradient(135deg, #06b6d4, #2563eb);
   color: #fff;
 }
 
@@ -46,12 +46,9 @@
   }
 }
 
-.item-active { 
+.item-active {
   /* background-color: #2563eb; */
-    background: linear-gradient(
-    135deg,
-    #06b6d4,
-    #2563eb);
+  background: linear-gradient(135deg, #06b6d4, #2563eb);
   color: #fff;
 }
 
