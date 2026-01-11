@@ -17,6 +17,15 @@ function Work() {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState([
     {
+      title: 'My Portfolio',
+      description: 'A personal portfolio showcasing my skills, projects, and experience as a frontend developer.',
+      tag: 'Web App',
+      stack: ['React'],
+      projectLink: 'https://oluwaseyibhadmus.vercel.app/',
+      codeLink: '',
+      imgUrl: my_portfolio
+    },
+    {
       title: 'Saleko Ecommerce Platform',
       description: 'A web app that enables seamless online shopping, supports multiple payment options, provides personalized recommendations, and ensures a user-friendly experience for customers and vendors.',
       tag: 'Web App',
@@ -88,16 +97,6 @@ function Work() {
       codeLink: '',
       imgUrl: hob_img
     },
-
-    {
-      title: 'My Portfolio',
-      description: 'A personal portfolio showcasing my skills, projects, and experience as a frontend developer.',
-      tag: 'Web App',
-      stack: ['React'],
-      projectLink: 'https://oluwaseyibhadmus.vercel.app/',
-      codeLink: '',
-      imgUrl: my_portfolio
-    }
   ]);
   const [filterWorks, setFilterWorks] = useState(works);
 
