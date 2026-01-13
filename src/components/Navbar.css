@@ -165,6 +165,6 @@
 
 @media screen and (max-width: 600px) {
   .app__navbar {
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 }
