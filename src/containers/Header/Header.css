@@ -221,6 +221,7 @@
 
 .cta-buttons {
   display: flex;
+  align-items: center;
   gap: 1rem;
   margin-bottom: 3rem;
 }
@@ -484,8 +485,12 @@
     font-size: 1rem;
   }
 
-  .cta-buttons {
+  /* .cta-buttons {
     flex-direction: column;
+  } */
+
+  .social-links {
+    justify-content: center;
   }
 
   .btn {
@@ -495,6 +500,10 @@
   .image-wrapper {
     width: 280px;
     height: 280px;
+  }
+
+  .image-container {
+    margin-top: 15px;
   }
 
   .floating-badge {
