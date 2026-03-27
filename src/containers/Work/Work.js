@@ -11,6 +11,7 @@ import smooth_capital from '../../assets/project_image/smooth-capital.png'
 import ecomap_platform from '../../assets/project_image/ecomap.png'
 import connectly from '../../assets/project_image/connectly.png'
 import my_portfolio from '../../assets/project_image/portfolio.png'
+import markson_portfolio from '../../assets/project_image/markson-portfolio.png'
 
 function Work() {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -42,6 +43,15 @@ function Work() {
       projectLink: 'https://seller.saleko.ng/',
       codeLink: '',
       imgUrl: saleko_merchant
+    },
+    {
+      title: 'Portfolio',
+      description: 'A personal portfolio web app showcasing the works and skills of the client.',
+      tag: 'Web App',
+      stack: ['React', 'Typescript'],
+      projectLink: 'https://marksonondah.com/',
+      codeLink: '',
+      imgUrl: markson_portfolio
     },
     {
       title: 'Smooth Capital',
