@@ -15,7 +15,7 @@ import markson_portfolio from "../../assets/project_image/markson-portfolio.png"
 function Work() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState<any>({ y: 0, opacity: 1 });
-  const [works, setWorks] = useState([
+  const works = [
     {
       title: "My Portfolio",
       description:
@@ -116,7 +116,7 @@ function Work() {
       codeLink: "",
       imgUrl: hob_img,
     },
-  ]);
+  ];
   const [filterWorks, setFilterWorks] = useState(works);
 
   const handleWorkFilter = (item: any) => {

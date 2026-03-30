@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './Navbar.css'
 import { HiMenuAlt4, HiX } from 'react-icons/hi'
-import { easeInOut, easeOut, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Link } from 'react-scroll';
 import logo from '../assets/mylogo.png'
 
