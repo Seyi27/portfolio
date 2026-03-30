@@ -1,0 +1,41 @@
+
+
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-text {
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--gray-color);
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 2000px) {
+  .p-text {
+    font-size: 1.75rem;
+  }
+}
+
+.bold-text {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--black-color);
+  text-align: left;
+}
+
+@media screen and (min-width: 2000px) {
+  .bold-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bold-text {
+    font-size: 0.9rem;
+  }
+}
+
