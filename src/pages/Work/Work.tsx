@@ -11,6 +11,7 @@ import ecomap_platform from "../../assets/project_image/ecomap.png";
 import connectly from "../../assets/project_image/connectly.png";
 import my_portfolio from "../../assets/project_image/portfolio.png";
 import markson_portfolio from "../../assets/project_image/markson-portfolio.png";
+import _24Seven from "../../assets/project_image/24seven.png";
 
 function Work() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -45,6 +46,16 @@ function Work() {
       projectLink: "https://seller.saleko.ng/",
       codeLink: "",
       imgUrl: saleko_merchant,
+    },
+    {
+      title: "24seven",
+      description:
+        "An online marketplace that brings distributors, retailers, logistics partners, and consumers together.",
+      tag: "Web App",
+      stack: ["React", "Typescript", "Redux"],
+      projectLink: "https://247-erp.netlify.app/auth/signin",
+      codeLink: "",
+      imgUrl: _24Seven,
     },
     {
       title: "Portfolio",
