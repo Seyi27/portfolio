@@ -164,6 +164,7 @@ function Work() {
             </div>
           ))}
         </div>
+        
 
         <motion.div
           animate={animateCard}
