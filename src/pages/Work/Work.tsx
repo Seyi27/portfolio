@@ -48,7 +48,7 @@ function Work() {
       imgUrl: saleko_merchant,
     },
     {
-      title: "24seven",
+      title: "24Seven",
       description:
         "An online marketplace that brings distributors, retailers, logistics partners, and consumers together.",
       tag: "Web App",
