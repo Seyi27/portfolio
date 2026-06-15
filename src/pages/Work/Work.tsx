@@ -11,7 +11,7 @@ import ecomap_platform from "../../assets/project_image/ecomap.png";
 import connectly from "../../assets/project_image/connectly.png";
 import my_portfolio from "../../assets/project_image/portfolio.png";
 import markson_portfolio from "../../assets/project_image/markson-portfolio.png";
-import _24Seven from "../../assets/project_image/24seven.png";
+import _24Seven from "../../assets/project_image/24Seven.png";
 
 function Work() {
   const [activeFilter, setActiveFilter] = useState("All");
