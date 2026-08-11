@@ -115,7 +115,7 @@ function Header() {
             <img src={image}
               alt="Bhadmus Oluwaseyi"
               className="profile-image" />
-
+{/* 
             <div className="floating-badge badge-1">
               <div className="badge-icon">💻</div>
               <div className="badge-text">Frontend Expert</div>
@@ -124,7 +124,7 @@ function Header() {
             <div className="floating-badge badge-2">
               <div className="badge-icon">✨</div>
               <div className="badge-text">Creative Designer</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

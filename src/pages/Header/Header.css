@@ -348,7 +348,7 @@
   animation-delay: 1.5s;
 }
 
-@keyframes floatBadge {
+/* @keyframes floatBadge {
   0%,
   100% {
     transform: translateY(0);
@@ -356,7 +356,7 @@
   50% {
     transform: translateY(-15px);
   }
-}
+} */
 
 .badge-icon {
   font-size: 1.5rem;
