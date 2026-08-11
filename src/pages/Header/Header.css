@@ -47,7 +47,7 @@
   animation-delay: 10s;
 }
 
-@keyframes float {
+/* @keyframes float {
   0%,
   100% {
     transform: translateY(0) rotate(0deg);
@@ -55,7 +55,7 @@
   50% {
     transform: translateY(-50px) rotate(180deg);
   }
-}
+} */
 
 .container {
   max-width: 1400px;
@@ -69,11 +69,11 @@
   align-items: center;
 }
 
-.content {
+/* .content {
   animation: slideInLeft 1s ease-out;
-}
+} */
 
-@keyframes slideInLeft {
+/* @keyframes slideInLeft {
   from {
     opacity: 0;
     transform: translateX(-50px);
@@ -82,7 +82,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .greeting {
   color: #a0aec0;
@@ -110,7 +110,7 @@
   background-size: 200% 200%;
 }
 
-@keyframes gradientShift {
+/* @keyframes gradientShift {
   0%,
   100% {
     background-position: 0% 50%;
@@ -118,7 +118,7 @@
   50% {
     background-position: 100% 50%;
   }
-}
+} */
 
 .title {
   color: #e2e8f0;
@@ -224,12 +224,12 @@
 
 .image-container {
   position: relative;
-  animation: slideInRight 1s ease-out;
+  /* animation: slideInRight 1s ease-out; */
   display: flex;
   justify-content: center;
 }
 
-@keyframes slideInRight {
+/* @keyframes slideInRight {
   from {
     opacity: 0;
     transform: translateX(50px);
@@ -238,7 +238,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .image-wrapper {
   position: relative;
@@ -284,14 +284,14 @@
   animation-duration: 30s;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .profile-image {
   width: 100%;
